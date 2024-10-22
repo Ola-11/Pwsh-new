@@ -1,0 +1,26 @@
+name: PowerShell CI
+
+on:
+  push:
+    branches:
+      - main  
+  pull_request:
+    branches:
+      - main  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up PowerShell
+        uses: PowerShell/setup-pwsh@v2
+
+      - name: Install Az.Accounts Module
+        run: pwsh -c "Install-Module -Name Az.Accounts -Force -AllowClobber"
+
+      - name: Run PowerShell Script
+        run: pwsh -c "newpowersh.ps1"  
