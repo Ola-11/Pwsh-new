@@ -1,0 +1,105 @@
+git config --global user.name "Ola-Test"
+git config --global user.email "oladeindeoluwaseun3@gmail.com"
+git clone https://github.com/Ola-11/PWSH-install-firefox.git
+ls
+cd ./PWSH-install-firefox/
+ls
+ls -l
+touch newfile.txt
+ls
+nano file.txt
+install-Module -Name Az -AllowClobber -Scope CurrentUser
+  A
+connect -AzAccount
+Connect -AzAccount
+ cd ..
+install-Module -Name Az -AllowClobber -Scope CurrentUser
+Connect -AzAccount
+pwsh
+install-Module -Name Az -AllowClobber -Scope CurrentUser
+Connect -AzAccount
+Import-Module Az
+Connect -AzAccount
+pwsh
+Get-Module -ListAvailable -Name Az
+Az
+Import-Module Az
+Connect -AzAccount
+Uninstall-Module -Name Az -AllVersions
+Install-Module -Name Az -AllowClobber -Scope CurrentUser -Force
+pwsh
+Connect -AzAccount
+sudo apt update
+apt list --upgradable
+apt list --upgradable -a
+sudo apt update distro-info-data
+sudo apt update
+sudo apt upgrade -y
+sudo reboot
+Connect -AzAccount
+Install-Module -Name Az.Accounts -AllowClobber -Force
+Import-Module Az.Accounts
+Connect -AzAccount
+Get-Module -ListAvailable
+Get-Command -Module Az.Accounts
+Connect -AzAccount
+Update-Module -Name Az
+Import-Module Az.Accounts
+$PSVersionTable.PSVersion
+Clear-AzContext -Force
+Connect -AzAccount
+ls
+exit
+Connect -AzAccount
+Login -AzAccount
+Connect-AzAccount
+Connect-AzAccount -UseDeviceAuthentication
+touch newpowersh.ps1
+ls
+nano ./newpowersh.ps1
+ls
+cd ./newpowersh.ps1
+ls
+cd ./pwSH-install-firefox/
+cd newpowersh.ps1
+cd ./PWSH-install-firefox/
+LS
+ls
+cd ..
+cd newpowersh.ps1
+ls
+./newpowersh.ps1
+nano ./newpowersh.ps1
+30;21R
+./newpowersh.ps1
+nano ./newpowersh.ps1
+Get-AzVMImage
+nano ./newpowersh.ps1
+./newpowersh.ps1
+nano ./newpowersh.ps1
+./newpowersh.ps1
+nano ./newpowersh.ps1
+Get-AzVMImage -Location $location -PublisherName "Canonical" -Offer "UbuntuServer"
+Get-AzVMImage
+Get-AzVMImage -Location "EastUS" -PublisherName "Canonical" -Offer "UbuntuServer"
+Get-AzVMImage -Location "EastUS"
+nano ./newpowersh.ps1
+./newpowersh.ps1
+nano ./newpowersh.ps1
+./newpowersh.ps1
+nano ./newpowersh.ps1
+./newpowersh.ps1
+nano ./newpowersh.ps1
+git add.
+git add .
+exit
+ls
+git init
+git status
+git add .
+git remote add origin https://github.com/Ola-11?tab=repositories
+git push -u origin master
+ls
+git branch
+git status
+git branch
