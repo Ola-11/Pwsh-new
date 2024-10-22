@@ -23,4 +23,4 @@ jobs:
         run: pwsh -c "Install-Module -Name Az.Accounts -Force -AllowClobber"
 
       - name: Run PowerShell Script
-        run: pwsh -c "newpowersh.ps1"  
+        run: pwsh -c "./newpowersh.ps1"  
